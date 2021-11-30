@@ -1,2 +1,2 @@
-# Assignment: 1955 API
-For this assignment, we want you to build a simple API server and communicate with it directly over URL requests. The purpose of this API server is to hold on to a list of people born in the year 1955. In order to allow our API server full functionality over URL, we'll need to make sure all our incoming requests come in as GETs, so don't worry about making your routes RESTful!
+# Restful Tasks Continued
+Continue building off your Restful Tasks assignment, which should currently have your service making all the get requests to your server. Now, have the root component invoke the methods in the service that make the requests to the server. Also, have the root component subscribe to the observables that are returned.
